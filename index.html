@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>Krishdhaa Events</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial scale=1" />
+  </head>
+  <body>
+    <div class="login-container">
+      <img src="logo.jpg" alt="Dj img" width="300" height="180" /><br />
+      <h3>
+        <img src="dj.jpg" alt="djImage" width="50" height="50" /> Login to
+        Krishdhaa Events
+      </h3>
+      <form id="login-form">
+        <input
+          type="text"
+          id="username"
+          placeholder="Username"
+          required
+        /><br />
+        <input
+          type="password"
+          id="password"
+          placeholder="Password"
+          required
+        /><br />
+        <button type="submit" id="login-button">Login</button>
+      </form>
+    </div>
+    <div id="error-popup" class="popup">
+      <p id="error-message">Invalid Username and Password.</p>
+      <button id="close-button">Close</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
